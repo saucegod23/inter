@@ -21,7 +21,6 @@ img{
 .question{
     
     font-size: 300%;
-    font-size: 400%;
     color: white;
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -38,7 +37,7 @@ img{
 .reponse{
     
     text-align: center;
-    font-size: 200%;
+    font-size: 400%;
     font-family: 'Anton', sans-serif;
     color: rgb(173, 153, 97);
     margin: auto;
