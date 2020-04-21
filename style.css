@@ -5,28 +5,65 @@ body{
     display: flex;
     justify-content: center;
 }
-
-
+a{
+    width: fit-content;
+    margin: auto;
+    border-radius: 50%;
+}
 img{
     width: 250px;
+    border-radius: 50%;
+    
+    
     
 }
 
 .question{
+    
     font-size: 300%;
-    color: rgb(177, 159, 82);
+    color: white;
     text-align: center;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    
 }
 
-textarea{
-    width: 200px;
-}
-.textbox{
+
+.reponse{
+    
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Anton', sans-serif;
+    color: rgb(173, 153, 97);
     margin: auto;
     display: inline-block;
+    border: 0;
+    background: none;
+    outline: none;
 }
 .boxquestion{
+    border-radius: 2% 2%;
     margin: auto;
     width: 60%;
+    max-width: 800px;
+    background-color: rgb(173, 153, 97);
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-size: 50%;
+    }
+    a{
+        margin-bottom: 80px;
+    }
+    img{
+        width: 25%;
+    }
+    .question{
+        font-size: 220%;
+    }
+    .reponse{
+        font-size: 200%;
+    }
 }
