@@ -20,11 +20,8 @@ img{
 
 .question{
     
-<<<<<<< HEAD
     font-size: 300%;
-=======
     font-size: 400%;
->>>>>>> 2a8151e4bcde7fd83aa2eca476a1300b4a0c4fc3
     color: white;
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -32,21 +29,16 @@ img{
     
 }
 
-<<<<<<< HEAD
 
 .reponse{
     
     text-align: center;
     font-size: 500%;
-=======
-textarea{
-    width: 200px;
 }
 .reponse{
     
     text-align: center;
     font-size: 200%;
->>>>>>> 2a8151e4bcde7fd83aa2eca476a1300b4a0c4fc3
     font-family: 'Anton', sans-serif;
     color: rgb(173, 153, 97);
     margin: auto;
@@ -59,7 +51,6 @@ textarea{
     border-radius: 2% 2%;
     margin: auto;
     width: 60%;
-<<<<<<< HEAD
     max-width: 800px;
     background-color: rgb(173, 153, 97);
     margin-bottom: 20px;
@@ -81,8 +72,5 @@ textarea{
     .reponse{
         font-size: 200%;
     }
-=======
-    background-color: rgb(173, 153, 97);
-    margin-bottom: 20px;
->>>>>>> 2a8151e4bcde7fd83aa2eca476a1300b4a0c4fc3
+
 }
